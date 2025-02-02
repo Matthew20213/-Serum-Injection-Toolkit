@@ -1,4 +1,4 @@
-# Serum Injection Toolkit 🔥
+# Serum Injection Toolkit 
 
 Serum is an **automated shellcode injector generator** that supports:
 
