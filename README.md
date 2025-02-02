@@ -1,6 +1,6 @@
 # Serum Injection Toolkit 
 
-Serum is an **automated shellcode injector generator** that supports:
+Serum is an **automated shellcode and payload injector generator** that supports:
 
 -  **Thread Creation** injection (WinAPI / NTDLL)
 -  **Process Injection** (Inject shellcode into a running process)
