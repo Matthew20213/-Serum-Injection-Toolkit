@@ -15,6 +15,9 @@ Serum is an **automated shellcode and payload injector generator** that supports
 - **Cross-compilation support** (Linux → Windows).
 
 ---
+## Disclaimer
+- This tool is intended for educational and research purposes only.
+- Using it for unauthorized access or malicious activity is illegal.
 
 ## Installation
 ```bash
